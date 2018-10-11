@@ -1,0 +1,21 @@
+{
+  "name": "real_estate_01",
+  "description": "",
+  "main": "webpack.mix.js",
+  "authors": [
+    "duongdinhmanh <duongdinhmanh252@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/duongdinhmanh/real_estate_01",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Font-Awesome": "git@github.com:FortAwesome/Font-Awesome.git#^5.4.0",
+    "demo-bower": "git@github.com:duongdinhmanh/demo-bower.git"
+  }
+}
