@@ -1,12 +1,12 @@
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
 @import 'variables';
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// @import '~bootstrap/scss/bootstrap';
 
 .navbar-laravel {
   background-color: #fff;
@@ -15,10 +15,9 @@
 
 /* Phan login */
 
-
-/* Phần category */
+// * Phần category */
 .row_none{
-        select {
+    select {
         display: none!important;
     }
 }
@@ -26,11 +25,11 @@
     tr {
         th {
             padding: 10px 5px!important;
-                select{
-                    width: 100%!important;
-                    height: 25px!important;
-                    padding: 10px 5px!important;
-                }
+            select{
+                width: 100%!important;
+                height: 25px!important;
+                padding: 10px 5px!important;
+            }
         }
     }
 }
@@ -44,15 +43,15 @@
     }
 }
 #lang{
-        #vi {
-            width: 19px;
-            height:  15px;
-        }
+    #vi {
+        width: 19px;
+        height:  15px;
+    }
 }
 .page-title{
     .title_right {
         text-align: right;
-         #lang {
+        #lang {
             left: -47px!important;
         }
     }
@@ -80,7 +79,7 @@
 
 .site_title{
     i {
-        border: none;
+        border: none!important;
     }
 }
 
@@ -136,8 +135,8 @@ ul{
 
 #list_add_pro{
     #list_add_img_pro{
-         padding:  0px!important;
-        }
+        padding:  0px!important;
+    }
 }
 
 #list_img_pro_color {
@@ -147,28 +146,28 @@ ul{
     }
 }
 
-#list_add_pro{
+#list_add_pro {
     li {
         list-style-type: none;
     }
 }
- #list_add_img_pro{
+#list_add_img_pro {
     li {
         list-style-type: none;
     }
- }
+}
 
-#users-table_filter{
-     input{
-        width: 240px;
-    }
+#users-table_filter {
+   input {
+    width: 240px;
+}
 }
 .dataTables_wrapper {
     margin-top: 26px;
 }
 
 /* phần search products*/
-.twitter-typeahead{
+.twitter-typeahead {
     width: 100%!important;
 }
 
@@ -195,4 +194,35 @@ ul{
     }
 }
 
+#logo_admin {
+    img {
+        max-width: 80;
+        height: auto;
+        overflow: hidden;
+    }
+}
+#admin_status {
+    color: green;
+}
 
+.navbar {
+    .nav_title {
+        border: 0;
+    }
+}
+.alert-danger {
+    text-align: center;
+}
+#balck_logo {
+    img {
+        margin-bottom: 50px;
+    }
+}
+
+#lang {
+    z-index: 9999;
+}
+
+.add_products_color {
+    margin:  20px 0!important;
+}
