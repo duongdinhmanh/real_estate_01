@@ -13,3 +13,9 @@ yarn-error.log
 .env
 .phpunit.result.cache
 /public/bower_components
+<<<<<<< HEAD
+=======
+node_modules
+/public/css
+/public/js
+>>>>>>> 332f356e3baca8adf8539a2c7079046bfa6bc758
