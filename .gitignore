@@ -19,3 +19,6 @@ node_modules
 /public/css
 /public/js
 >>>>>>> 332f356e3baca8adf8539a2c7079046bfa6bc758
+/public/assets
+/public/ckeditor
+

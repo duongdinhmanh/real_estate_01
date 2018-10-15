@@ -1,0 +1,62 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: manhlinh
+ * Date: 12/10/2018
+ * Time: 13:36
+ */
+
+return [
+
+    'Currency' => 'currency',
+    'Language' => 'Language',
+    'Category_name' => 'Category - Name',
+    'Slug' => 'Slug',
+    'Status' => 'Status',
+    'Action' => 'Action',
+    'Created_at' => 'Created_at',
+    'hidden' => 'hidden',
+    'current' => 'current',
+    'Choose_option' => 'Choose option',
+    'Category_Parent' => 'CATEGORY - PARENT',
+    'add_category' => 'Add new category successfully',
+    'category_edit' => 'Successfully updated catalog ....',
+    'category_delete' => 'Delete Category Successfully...?',
+    'seconds_ago' => 'seconds ago',
+    'minute_ago' => 'minute_ago',
+    'hours_ago' => 'hours_ago',
+    'name_pro' => 'Name Products',
+    'desc' => 'Info Products',
+    'sale_products' => 'Sale - Products',
+    'Descriptions' => 'Descriptions',
+    'images' => 'IMAGES',
+    'category' => 'CATEGORY',
+    'location' => 'LOCATION',
+    'Edit' => 'Edit',
+    'Note_input_name' => 'The name should not contain a sign (-), the letters separated by a space .. (ex: NAME PRODUCT..)',
+    'Note_input_slug' => 'You can change the slug, the words are not capitalized and separated by dashes .. (ex: name-profucts ..)',
+    'List_Cat' => 'List Categories',
+    'add_new_apartments' => 'ADD - NEW - APARTMENTS',
+    'ProductsImages' => 'Products-Images-detail',
+    'sale' => 'Sale Product...(note : the number and the sale price is the price you have deducted % )',
+    'address' => 'Addresses should be separated by a comma (,). Ex (house number, street name, district / city)',
+    'name_address' => 'Address',
+    'ImgPro' => 'Product-Image',
+    'floor_plans' => 'floor_plans',
+    'Detail' => 'Detail',
+    'Map' => 'Map',
+    'video_note' => 'Use links on youtube',
+    'map_note' => 'using the google map API',
+    'Price' => 'Price',
+    'Acreage' => 'Acreage',
+    'Home' => 'Home',
+    'Dashboard' => 'Dashboard',
+    'Apartments' => 'Apartments',
+    'list_apartments' => 'List of Apartments',
+    'create_apartments' => 'Create New Apartments',
+    'form_login' => 'Login Form',
+    'login' => 'Log in',
+    'Lost_your_password' => 'Lost your password?',
+    'CreateAccount' => 'Create Account',
+    'AllRightsReserved' => 'All Rights Reserved',
+];
