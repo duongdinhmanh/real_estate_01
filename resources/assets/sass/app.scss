@@ -1,41 +1,38 @@
-
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
 @import 'variables';
-
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
 .navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
 /* Phan login */
 
-
 /* Phần category */
-.row_none{
-        select {
-        display: none!important;
+.row_none {
+    select {
+        display: none !important;
     }
 }
-.data-table{
+
+.data-table {
     tr {
         th {
-            padding: 10px 5px!important;
-                select{
-                    width: 100%!important;
-                    height: 25px!important;
-                    padding: 10px 5px!important;
-                }
+            padding: 10px 5px !important;
+            select {
+                width: 100% !important;
+                height: 25px !important;
+                padding: 10px 5px !important;
+            }
         }
     }
 }
 
-#cat_table_filter{
+#cat_table_filter {
     input {
         width: 300px;
         height: 30px;
@@ -43,42 +40,47 @@
         padding: 10px;
     }
 }
-#lang{
-        #vi {
-            width: 19px;
-            height:  15px;
-        }
+
+#lang {
+    #vi {
+        width: 19px;
+        height: 15px;
+    }
 }
-.page-title{
+
+.page-title {
     .title_right {
         text-align: right;
-         #lang {
-            left: -47px!important;
+        #lang {
+            left: -47px !important;
         }
     }
 }
 
-.clearfix_top{
+.clearfix_top {
     border-bottom: 1px solid;
     margin-bottom: 15px;
 }
+
 .imagePreview {
     width: 100%;
     height: auto;
     overflow: hidden;
 }
-.checkbox{
+
+.checkbox {
     label {
-        padding-left: 0px!important;
-    }
-}
-.radio {
-    label {
-        padding-left: 0px!important;
+        padding-left: 0px !important;
     }
 }
 
-.site_title{
+.radio {
+    label {
+        padding-left: 0px !important;
+    }
+}
+
+.site_title {
     i {
         border: none;
     }
@@ -86,25 +88,24 @@
 
 /* Datatable */
 
-table{
+table {
     .dataTable {
-        thead{
-            th{
-                padding: 5px 25px 5px 7px!important;
+        thead {
+            th {
+                padding: 5px 25px 5px 7px !important;
             }
         }
     }
 }
 
-
-#category_img{
+#category_img {
     .thumbnail {
-        height: 445px!important;
+        height: 445px !important;
         overflow: hidden;
     }
 }
 
-ul{
+ul {
     .bar_tabs {
         background: none;
         margin-bottom: 50px;
@@ -114,6 +115,7 @@ ul{
 #send_cat {
     float: right;
 }
+
 #cancel {
     float: right;
 }
@@ -121,6 +123,7 @@ ul{
 .title_create_right {
     text-align: right;
 }
+
 .title_create_left {
     text-align: left;
 }
@@ -134,65 +137,75 @@ ul{
     margin-bottom: 10px;
 }
 
-#list_add_pro{
-    #list_add_img_pro{
-         padding:  0px!important;
-        }
+#list_add_pro {
+    #list_add_img_pro {
+        padding: 0px !important;
+    }
 }
 
 #list_img_pro_color {
-    padding:  0px!important;
+    padding: 0px !important;
     li {
         list-style-type: none;
     }
 }
 
-#list_add_pro{
+#list_add_pro {
     li {
         list-style-type: none;
     }
 }
- #list_add_img_pro{
+
+#list_add_img_pro {
     li {
         list-style-type: none;
     }
- }
+}
 
-#users-table_filter{
-     input{
+#users-table_filter {
+    input {
         width: 240px;
     }
 }
+
 .dataTables_wrapper {
     margin-top: 26px;
 }
 
 /* phần search products*/
-.twitter-typeahead{
-    width: 100%!important;
+.twitter-typeahead {
+    width: 100% !important;
 }
 
 .tt-menu {
-    width: 100%!important;
+    width: 100% !important;
 }
+
 #add_list_products {
-    padding:  0px!important;
+    padding: 0px !important;
 }
-#add_list_products{
+
+#add_list_products {
     li {
         list-style-type: none;
     }
 }
 
 #img_color {
-    border:  1px solid #ddd;
-    padding:  10px;
+    border: 1px solid #ddd;
+    padding: 10px;
 }
 
 .errors_login {
     p {
         color: red;
     }
+}
+
+.logo_image {
+    max-width: 80%;
+    height: auto;
+    overflow: hidden;
 }
 
 
